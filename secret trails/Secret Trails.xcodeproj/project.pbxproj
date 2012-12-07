@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2B965B1641DBF6003D8C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B965A1641DBF6003D8C78 /* UIKit.framework */; };
+		5F2B965D1641DBF6003D8C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B965C1641DBF6003D8C78 /* Foundation.framework */; };
+		5F2B965F1641DBF6003D8C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B965E1641DBF6003D8C78 /* CoreGraphics.framework */; };
+		5F2B96651641DBF6003D8C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B96631641DBF6003D8C78 /* InfoPlist.strings */; };
+		5F2B96671641DBF6003D8C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B96661641DBF6003D8C78 /* main.m */; };
+		5F2B966B1641DBF6003D8C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B966A1641DBF6003D8C78 /* AppDelegate.m */; };
+		5F2B966D1641DBF6003D8C78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B966C1641DBF6003D8C78 /* Default.png */; };
+		5F2B966F1641DBF6003D8C78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B966E1641DBF6003D8C78 /* Default@2x.png */; };
+		5F2B96711641DBF6003D8C78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B96701641DBF6003D8C78 /* Default-568h@2x.png */; };
+		5F2B96741641DBF6003D8C78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B96721641DBF6003D8C78 /* MainStoryboard.storyboard */; };
+		5F2B96771641DBF7003D8C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B96761641DBF7003D8C78 /* ViewController.m */; };
+		5F2B967F1641DBF7003D8C78 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B967E1641DBF7003D8C78 /* SenTestingKit.framework */; };
+		5F2B96801641DBF7003D8C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B965A1641DBF6003D8C78 /* UIKit.framework */; };
+		5F2B96811641DBF7003D8C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2B965C1641DBF6003D8C78 /* Foundation.framework */; };
+		5F2B96891641DBF7003D8C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B96871641DBF7003D8C78 /* InfoPlist.strings */; };
+		5F2B968C1641DBF7003D8C78 /* secret_trailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B968B1641DBF7003D8C78 /* secret_trailsTests.m */; };
+		5F5C817E16439F9700F3244D /* SecretTrails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C817D16439F9600F3244D /* SecretTrails.jpg */; };
+		5F6B138D166D749C0012AA95 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B138C166D749C0012AA95 /* CoreFoundation.framework */; };
+		5F6B1390166D74A50012AA95 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B138F166D74A50012AA95 /* SystemConfiguration.framework */; };
+		5F6B139C166D77B10012AA95 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B139B166D77B10012AA95 /* PreferencesViewController.m */; };
+		5F7352CE165EFD5B0062D52A /* levelCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7352CD165EFD5B0062D52A /* levelCompleteViewController.m */; };
+		5F8A45B11641DF89008B10A5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A45B01641DF89008B10A5 /* GameViewController.m */; };
+		5F8B4D28166FBE1E00880EE3 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B4D27166FBE1E00880EE3 /* HighScoreViewController.m */; };
+		5F93AF9616702FAC0090A7CE /* SecretTrailsLaunch960.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F93AF9516702FAC0090A7CE /* SecretTrailsLaunch960.png */; };
+		5F940D6516436957004541F1 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F940D6116436957004541F1 /* yellow.png */; };
+		5F940D6616436957004541F1 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F940D6216436957004541F1 /* green.png */; };
+		5F940D6716436957004541F1 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F940D6316436957004541F1 /* red.png */; };
+		5F940D6816436957004541F1 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F940D6416436957004541F1 /* blue.png */; };
+		5FBD4D93165FEB1F005FD0A5 /* SecretTrailsLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD4D92165FEB1F005FD0A5 /* SecretTrailsLaunch.png */; };
+		5FBD4D95165FEB8A005FD0A5 /* SecretTrailsLaunch1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD4D94165FEB8A005FD0A5 /* SecretTrailsLaunch1136.png */; };
+		5FE2530E165FF74B0086E1D7 /* GameInputOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2530D165FF74B0086E1D7 /* GameInputOutput.m */; };
+		5FE25314165FFE2F0086E1D7 /* SecretTrailsAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE25312165FFE2F0086E1D7 /* SecretTrailsAppIcon.png */; };
+		5FE25315165FFE2F0086E1D7 /* SecretTrailsAppIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE25313165FFE2F0086E1D7 /* SecretTrailsAppIcon57.png */; };
+		5FE25317165FFE460086E1D7 /* SecretTrailsAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE25316165FFE460086E1D7 /* SecretTrailsAppIcon.png */; };
+		5FE25319165FFE4D0086E1D7 /* SecretTrailsAppIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE25318165FFE4D0086E1D7 /* SecretTrailsAppIcon57.png */; };
+		5FE38CEE165E8DEE002E6FEE /* Yellow_2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE38CED165E8DEE002E6FEE /* Yellow_2_2.png */; };
+		5FE38CF1165E8EA3002E6FEE /* Red_2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE38CF0165E8EA3002E6FEE /* Red_2_3.png */; };
+		5FE38CF3165E8EBD002E6FEE /* Blue_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE38CF2165E8EBD002E6FEE /* Blue_1_1.png */; };
+		5FE38CF5165E8EC4002E6FEE /* Green_2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE38CF4165E8EC4002E6FEE /* Green_2_3.png */; };
+		5FE38D0F165EAA4D002E6FEE /* borederyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE38D0E165EAA4C002E6FEE /* borederyellow.png */; };
+		D6FA882D166EEFB60015669A /* wordlist.json in Resources */ = {isa = PBXBuildFile; fileRef = D6FA882C166EEFB60015669A /* wordlist.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F2B96821641DBF7003D8C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F2B964D1641DBF6003D8C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2B96551641DBF6003D8C78;
+			remoteInfo = "secret trails";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2B96561641DBF6003D8C78 /* secret trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "secret trails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2B965A1641DBF6003D8C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F2B965C1641DBF6003D8C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F2B965E1641DBF6003D8C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F2B96621641DBF6003D8C78 /* secret trails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secret trails-Info.plist"; sourceTree = "<group>"; };
+		5F2B96641641DBF6003D8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F2B96661641DBF6003D8C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F2B96681641DBF6003D8C78 /* secret trails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "secret trails-Prefix.pch"; sourceTree = "<group>"; };
+		5F2B96691641DBF6003D8C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F2B966A1641DBF6003D8C78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F2B966C1641DBF6003D8C78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F2B966E1641DBF6003D8C78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5F2B96701641DBF6003D8C78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F2B96731641DBF6003D8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5F2B96751641DBF6003D8C78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F2B96761641DBF7003D8C78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F2B967D1641DBF7003D8C78 /* secret trailsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "secret trailsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2B967E1641DBF7003D8C78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F2B96861641DBF7003D8C78 /* secret trailsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secret trailsTests-Info.plist"; sourceTree = "<group>"; };
+		5F2B96881641DBF7003D8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F2B968A1641DBF7003D8C78 /* secret_trailsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secret_trailsTests.h; sourceTree = "<group>"; };
+		5F2B968B1641DBF7003D8C78 /* secret_trailsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secret_trailsTests.m; sourceTree = "<group>"; };
+		5F5C817D16439F9600F3244D /* SecretTrails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SecretTrails.jpg; sourceTree = "<group>"; };
+		5F6B138C166D749C0012AA95 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5F6B138F166D74A50012AA95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5F6B139A166D77B10012AA95 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesViewController.h; path = ../PreferencesViewController.h; sourceTree = "<group>"; };
+		5F6B139B166D77B10012AA95 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesViewController.m; path = ../PreferencesViewController.m; sourceTree = "<group>"; };
+		5F7352CC165EFD5B0062D52A /* levelCompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levelCompleteViewController.h; sourceTree = "<group>"; };
+		5F7352CD165EFD5B0062D52A /* levelCompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = levelCompleteViewController.m; sourceTree = "<group>"; };
+		5F8A45AF1641DF83008B10A5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5F8A45B01641DF89008B10A5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5F8B4D26166FBE1E00880EE3 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		5F8B4D27166FBE1E00880EE3 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		5F93AF9516702FAC0090A7CE /* SecretTrailsLaunch960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsLaunch960.png; sourceTree = "<group>"; };
+		5F940D6116436957004541F1 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		5F940D6216436957004541F1 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		5F940D6316436957004541F1 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		5F940D6416436957004541F1 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		5FBD4D92165FEB1F005FD0A5 /* SecretTrailsLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsLaunch.png; sourceTree = "<group>"; };
+		5FBD4D94165FEB8A005FD0A5 /* SecretTrailsLaunch1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsLaunch1136.png; sourceTree = "<group>"; };
+		5FE2530C165FF74B0086E1D7 /* GameInputOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameInputOutput.h; path = ../GameInputOutput.h; sourceTree = "<group>"; };
+		5FE2530D165FF74B0086E1D7 /* GameInputOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameInputOutput.m; path = ../GameInputOutput.m; sourceTree = "<group>"; };
+		5FE25312165FFE2F0086E1D7 /* SecretTrailsAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsAppIcon.png; sourceTree = "<group>"; };
+		5FE25313165FFE2F0086E1D7 /* SecretTrailsAppIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsAppIcon57.png; sourceTree = "<group>"; };
+		5FE25316165FFE460086E1D7 /* SecretTrailsAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsAppIcon.png; sourceTree = "<group>"; };
+		5FE25318165FFE4D0086E1D7 /* SecretTrailsAppIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecretTrailsAppIcon57.png; sourceTree = "<group>"; };
+		5FE38CED165E8DEE002E6FEE /* Yellow_2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow_2_2.png; sourceTree = "<group>"; };
+		5FE38CF0165E8EA3002E6FEE /* Red_2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_2_3.png; sourceTree = "<group>"; };
+		5FE38CF2165E8EBD002E6FEE /* Blue_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue_1_1.png; sourceTree = "<group>"; };
+		5FE38CF4165E8EC4002E6FEE /* Green_2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_2_3.png; sourceTree = "<group>"; };
+		5FE38D0E165EAA4C002E6FEE /* borederyellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borederyellow.png; sourceTree = "<group>"; };
+		D6FA882C166EEFB60015669A /* wordlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordlist.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2B96531641DBF6003D8C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B1390166D74A50012AA95 /* SystemConfiguration.framework in Frameworks */,
+				5F6B138D166D749C0012AA95 /* CoreFoundation.framework in Frameworks */,
+				5F2B965B1641DBF6003D8C78 /* UIKit.framework in Frameworks */,
+				5F2B965D1641DBF6003D8C78 /* Foundation.framework in Frameworks */,
+				5F2B965F1641DBF6003D8C78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2B96791641DBF7003D8C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B967F1641DBF7003D8C78 /* SenTestingKit.framework in Frameworks */,
+				5F2B96801641DBF7003D8C78 /* UIKit.framework in Frameworks */,
+				5F2B96811641DBF7003D8C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2B964B1641DBF6003D8C78 = {
+			isa = PBXGroup;
+			children = (
+				D6FA882C166EEFB60015669A /* wordlist.json */,
+				5F6B138F166D74A50012AA95 /* SystemConfiguration.framework */,
+				5F6B138C166D749C0012AA95 /* CoreFoundation.framework */,
+				5FE25318165FFE4D0086E1D7 /* SecretTrailsAppIcon57.png */,
+				5FE25316165FFE460086E1D7 /* SecretTrailsAppIcon.png */,
+				5F2B96601641DBF6003D8C78 /* secret trails */,
+				5F2B96841641DBF7003D8C78 /* secret trailsTests */,
+				5F2B96591641DBF6003D8C78 /* Frameworks */,
+				5F2B96571641DBF6003D8C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F2B96571641DBF6003D8C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B96561641DBF6003D8C78 /* secret trails.app */,
+				5F2B967D1641DBF7003D8C78 /* secret trailsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F2B96591641DBF6003D8C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B965A1641DBF6003D8C78 /* UIKit.framework */,
+				5F2B965C1641DBF6003D8C78 /* Foundation.framework */,
+				5F2B965E1641DBF6003D8C78 /* CoreGraphics.framework */,
+				5F2B967E1641DBF7003D8C78 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F2B96601641DBF6003D8C78 /* secret trails */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B96721641DBF6003D8C78 /* MainStoryboard.storyboard */,
+				5FE25311165FF7970086E1D7 /* Images */,
+				5F8A45AF1641DF83008B10A5 /* GameViewController.h */,
+				5F8A45B01641DF89008B10A5 /* GameViewController.m */,
+				5F7352CC165EFD5B0062D52A /* levelCompleteViewController.h */,
+				5F7352CD165EFD5B0062D52A /* levelCompleteViewController.m */,
+				5F6B139A166D77B10012AA95 /* PreferencesViewController.h */,
+				5F6B139B166D77B10012AA95 /* PreferencesViewController.m */,
+				5F2B96751641DBF6003D8C78 /* ViewController.h */,
+				5F2B96761641DBF7003D8C78 /* ViewController.m */,
+				5F2B96691641DBF6003D8C78 /* AppDelegate.h */,
+				5F2B966A1641DBF6003D8C78 /* AppDelegate.m */,
+				5F8B4D26166FBE1E00880EE3 /* HighScoreViewController.h */,
+				5F8B4D27166FBE1E00880EE3 /* HighScoreViewController.m */,
+				5FEAB343166EC037003E33D8 /* Reader */,
+				5F2B96611641DBF6003D8C78 /* Supporting Files */,
+			);
+			path = "secret trails";
+			sourceTree = "<group>";
+		};
+		5F2B96611641DBF6003D8C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B96621641DBF6003D8C78 /* secret trails-Info.plist */,
+				5F2B96631641DBF6003D8C78 /* InfoPlist.strings */,
+				5F2B96661641DBF6003D8C78 /* main.m */,
+				5F2B96681641DBF6003D8C78 /* secret trails-Prefix.pch */,
+				5F2B966C1641DBF6003D8C78 /* Default.png */,
+				5F2B966E1641DBF6003D8C78 /* Default@2x.png */,
+				5F2B96701641DBF6003D8C78 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2B96841641DBF7003D8C78 /* secret trailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B968A1641DBF7003D8C78 /* secret_trailsTests.h */,
+				5F2B968B1641DBF7003D8C78 /* secret_trailsTests.m */,
+				5F2B96851641DBF7003D8C78 /* Supporting Files */,
+			);
+			path = "secret trailsTests";
+			sourceTree = "<group>";
+		};
+		5F2B96851641DBF7003D8C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B96861641DBF7003D8C78 /* secret trailsTests-Info.plist */,
+				5F2B96871641DBF7003D8C78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE25311165FF7970086E1D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C817D16439F9600F3244D /* SecretTrails.jpg */,
+				5FBD4D92165FEB1F005FD0A5 /* SecretTrailsLaunch.png */,
+				5FE25312165FFE2F0086E1D7 /* SecretTrailsAppIcon.png */,
+				5FE25313165FFE2F0086E1D7 /* SecretTrailsAppIcon57.png */,
+				5F940D6116436957004541F1 /* yellow.png */,
+				5FE38CF0165E8EA3002E6FEE /* Red_2_3.png */,
+				5FE38CED165E8DEE002E6FEE /* Yellow_2_2.png */,
+				5FE38CF2165E8EBD002E6FEE /* Blue_1_1.png */,
+				5FE38CF4165E8EC4002E6FEE /* Green_2_3.png */,
+				5F93AF9516702FAC0090A7CE /* SecretTrailsLaunch960.png */,
+				5FBD4D94165FEB8A005FD0A5 /* SecretTrailsLaunch1136.png */,
+				5F940D6216436957004541F1 /* green.png */,
+				5F940D6316436957004541F1 /* red.png */,
+				5F940D6416436957004541F1 /* blue.png */,
+				5FE38D0E165EAA4C002E6FEE /* borederyellow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5FEAB343166EC037003E33D8 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				5FE2530C165FF74B0086E1D7 /* GameInputOutput.h */,
+				5FE2530D165FF74B0086E1D7 /* GameInputOutput.m */,
+			);
+			name = Reader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F2B96551641DBF6003D8C78 /* secret trails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2B968F1641DBF7003D8C78 /* Build configuration list for PBXNativeTarget "secret trails" */;
+			buildPhases = (
+				5F2B96521641DBF6003D8C78 /* Sources */,
+				5F2B96531641DBF6003D8C78 /* Frameworks */,
+				5F2B96541641DBF6003D8C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "secret trails";
+			productName = "secret trails";
+			productReference = 5F2B96561641DBF6003D8C78 /* secret trails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F2B967C1641DBF7003D8C78 /* secret trailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2B96921641DBF7003D8C78 /* Build configuration list for PBXNativeTarget "secret trailsTests" */;
+			buildPhases = (
+				5F2B96781641DBF7003D8C78 /* Sources */,
+				5F2B96791641DBF7003D8C78 /* Frameworks */,
+				5F2B967A1641DBF7003D8C78 /* Resources */,
+				5F2B967B1641DBF7003D8C78 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F2B96831641DBF7003D8C78 /* PBXTargetDependency */,
+			);
+			name = "secret trailsTests";
+			productName = "secret trailsTests";
+			productReference = 5F2B967D1641DBF7003D8C78 /* secret trailsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F2B964D1641DBF6003D8C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jesse Rintoul";
+			};
+			buildConfigurationList = 5F2B96501641DBF6003D8C78 /* Build configuration list for PBXProject "secret trails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F2B964B1641DBF6003D8C78;
+			productRefGroup = 5F2B96571641DBF6003D8C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2B96551641DBF6003D8C78 /* secret trails */,
+				5F2B967C1641DBF7003D8C78 /* secret trailsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F2B96541641DBF6003D8C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B96651641DBF6003D8C78 /* InfoPlist.strings in Resources */,
+				5F2B966D1641DBF6003D8C78 /* Default.png in Resources */,
+				5F2B966F1641DBF6003D8C78 /* Default@2x.png in Resources */,
+				5F2B96711641DBF6003D8C78 /* Default-568h@2x.png in Resources */,
+				5F2B96741641DBF6003D8C78 /* MainStoryboard.storyboard in Resources */,
+				5F940D6516436957004541F1 /* yellow.png in Resources */,
+				5F940D6616436957004541F1 /* green.png in Resources */,
+				5F940D6716436957004541F1 /* red.png in Resources */,
+				5F940D6816436957004541F1 /* blue.png in Resources */,
+				5F5C817E16439F9700F3244D /* SecretTrails.jpg in Resources */,
+				5FE38CEE165E8DEE002E6FEE /* Yellow_2_2.png in Resources */,
+				5FE38CF1165E8EA3002E6FEE /* Red_2_3.png in Resources */,
+				5FE38CF3165E8EBD002E6FEE /* Blue_1_1.png in Resources */,
+				5FE38CF5165E8EC4002E6FEE /* Green_2_3.png in Resources */,
+				5FE38D0F165EAA4D002E6FEE /* borederyellow.png in Resources */,
+				5FBD4D93165FEB1F005FD0A5 /* SecretTrailsLaunch.png in Resources */,
+				5FBD4D95165FEB8A005FD0A5 /* SecretTrailsLaunch1136.png in Resources */,
+				5FE25314165FFE2F0086E1D7 /* SecretTrailsAppIcon.png in Resources */,
+				5FE25315165FFE2F0086E1D7 /* SecretTrailsAppIcon57.png in Resources */,
+				5FE25317165FFE460086E1D7 /* SecretTrailsAppIcon.png in Resources */,
+				5FE25319165FFE4D0086E1D7 /* SecretTrailsAppIcon57.png in Resources */,
+				D6FA882D166EEFB60015669A /* wordlist.json in Resources */,
+				5F93AF9616702FAC0090A7CE /* SecretTrailsLaunch960.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2B967A1641DBF7003D8C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B96891641DBF7003D8C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F2B967B1641DBF7003D8C78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F2B96521641DBF6003D8C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B96671641DBF6003D8C78 /* main.m in Sources */,
+				5F2B966B1641DBF6003D8C78 /* AppDelegate.m in Sources */,
+				5F2B96771641DBF7003D8C78 /* ViewController.m in Sources */,
+				5F8A45B11641DF89008B10A5 /* GameViewController.m in Sources */,
+				5F7352CE165EFD5B0062D52A /* levelCompleteViewController.m in Sources */,
+				5FE2530E165FF74B0086E1D7 /* GameInputOutput.m in Sources */,
+				5F6B139C166D77B10012AA95 /* PreferencesViewController.m in Sources */,
+				5F8B4D28166FBE1E00880EE3 /* HighScoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2B96781641DBF7003D8C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B968C1641DBF7003D8C78 /* secret_trailsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F2B96831641DBF7003D8C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2B96551641DBF6003D8C78 /* secret trails */;
+			targetProxy = 5F2B96821641DBF7003D8C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F2B96631641DBF6003D8C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2B96641641DBF6003D8C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F2B96721641DBF6003D8C78 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2B96731641DBF6003D8C78 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5F2B96871641DBF7003D8C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2B96881641DBF7003D8C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F2B968D1641DBF7003D8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F2B968E1641DBF7003D8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F2B96901641DBF7003D8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trails/secret trails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F2B96911641DBF7003D8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trails/secret trails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F2B96931641DBF7003D8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secret trails.app/secret trails";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trailsTests/secret trailsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F2B96941641DBF7003D8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secret trails.app/secret trails";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trailsTests/secret trailsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2B96501641DBF6003D8C78 /* Build configuration list for PBXProject "secret trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2B968D1641DBF7003D8C78 /* Debug */,
+				5F2B968E1641DBF7003D8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2B968F1641DBF7003D8C78 /* Build configuration list for PBXNativeTarget "secret trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2B96901641DBF7003D8C78 /* Debug */,
+				5F2B96911641DBF7003D8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2B96921641DBF7003D8C78 /* Build configuration list for PBXNativeTarget "secret trailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2B96931641DBF7003D8C78 /* Debug */,
+				5F2B96941641DBF7003D8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F2B964D1641DBF6003D8C78 /* Project object */;
+}

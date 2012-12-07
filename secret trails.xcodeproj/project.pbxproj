@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA637D8163EDE3700595B0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA637D7163EDE3600595B0C /* UIKit.framework */; };
+		5FA637DA163EDE3700595B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA637D9163EDE3700595B0C /* Foundation.framework */; };
+		5FA637DC163EDE3700595B0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA637DB163EDE3700595B0C /* CoreGraphics.framework */; };
+		5FA637E2163EDE3700595B0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637E0163EDE3700595B0C /* InfoPlist.strings */; };
+		5FA637E4163EDE3700595B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA637E3163EDE3700595B0C /* main.m */; };
+		5FA637E8163EDE3700595B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA637E7163EDE3700595B0C /* AppDelegate.m */; };
+		5FA637EA163EDE3700595B0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637E9163EDE3700595B0C /* Default.png */; };
+		5FA637EC163EDE3700595B0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637EB163EDE3700595B0C /* Default@2x.png */; };
+		5FA637EE163EDE3700595B0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637ED163EDE3700595B0C /* Default-568h@2x.png */; };
+		5FA637F1163EDE3700595B0C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA637F0163EDE3700595B0C /* RootViewController.m */; };
+		5FA637F4163EDE3700595B0C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA637F3163EDE3700595B0C /* DataViewController.m */; };
+		5FA637F7163EDE3700595B0C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA637F6163EDE3700595B0C /* ModelController.m */; };
+		5FA637FA163EDE3700595B0C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637F8163EDE3700595B0C /* MainStoryboard_iPhone.storyboard */; };
+		5FA637FD163EDE3700595B0C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA637FB163EDE3700595B0C /* MainStoryboard_iPad.storyboard */; };
+		5FA63805163EDE3700595B0C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA63804163EDE3700595B0C /* SenTestingKit.framework */; };
+		5FA63806163EDE3700595B0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA637D7163EDE3600595B0C /* UIKit.framework */; };
+		5FA63807163EDE3700595B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA637D9163EDE3700595B0C /* Foundation.framework */; };
+		5FA6380F163EDE3700595B0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6380D163EDE3700595B0C /* InfoPlist.strings */; };
+		5FA63812163EDE3700595B0C /* secret_trailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA63811163EDE3700595B0C /* secret_trailsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FA63808163EDE3700595B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA637CA163EDE3600595B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA637D2163EDE3600595B0C;
+			remoteInfo = "secret trails";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FA637D3163EDE3600595B0C /* secret trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "secret trails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA637D7163EDE3600595B0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FA637D9163EDE3700595B0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FA637DB163EDE3700595B0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FA637DF163EDE3700595B0C /* secret trails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secret trails-Info.plist"; sourceTree = "<group>"; };
+		5FA637E1163EDE3700595B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FA637E3163EDE3700595B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FA637E5163EDE3700595B0C /* secret trails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "secret trails-Prefix.pch"; sourceTree = "<group>"; };
+		5FA637E6163EDE3700595B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FA637E7163EDE3700595B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FA637E9163EDE3700595B0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5FA637EB163EDE3700595B0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5FA637ED163EDE3700595B0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5FA637EF163EDE3700595B0C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5FA637F0163EDE3700595B0C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5FA637F2163EDE3700595B0C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		5FA637F3163EDE3700595B0C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		5FA637F5163EDE3700595B0C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		5FA637F6163EDE3700595B0C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		5FA637F9163EDE3700595B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5FA637FC163EDE3700595B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5FA63803163EDE3700595B0C /* secret trailsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "secret trailsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA63804163EDE3700595B0C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FA6380C163EDE3700595B0C /* secret trailsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secret trailsTests-Info.plist"; sourceTree = "<group>"; };
+		5FA6380E163EDE3700595B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FA63810163EDE3700595B0C /* secret_trailsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secret_trailsTests.h; sourceTree = "<group>"; };
+		5FA63811163EDE3700595B0C /* secret_trailsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secret_trailsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA637D0163EDE3600595B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA637D8163EDE3700595B0C /* UIKit.framework in Frameworks */,
+				5FA637DA163EDE3700595B0C /* Foundation.framework in Frameworks */,
+				5FA637DC163EDE3700595B0C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA637FF163EDE3700595B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA63805163EDE3700595B0C /* SenTestingKit.framework in Frameworks */,
+				5FA63806163EDE3700595B0C /* UIKit.framework in Frameworks */,
+				5FA63807163EDE3700595B0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FA637C8163EDE3600595B0C = {
+			isa = PBXGroup;
+			children = (
+				5FA637DD163EDE3700595B0C /* secret trails */,
+				5FA6380A163EDE3700595B0C /* secret trailsTests */,
+				5FA637D6163EDE3600595B0C /* Frameworks */,
+				5FA637D4163EDE3600595B0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA637D4163EDE3600595B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA637D3163EDE3600595B0C /* secret trails.app */,
+				5FA63803163EDE3700595B0C /* secret trailsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA637D6163EDE3600595B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA637D7163EDE3600595B0C /* UIKit.framework */,
+				5FA637D9163EDE3700595B0C /* Foundation.framework */,
+				5FA637DB163EDE3700595B0C /* CoreGraphics.framework */,
+				5FA63804163EDE3700595B0C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FA637DD163EDE3700595B0C /* secret trails */ = {
+			isa = PBXGroup;
+			children = (
+				5FA637E6163EDE3700595B0C /* AppDelegate.h */,
+				5FA637E7163EDE3700595B0C /* AppDelegate.m */,
+				5FA637EF163EDE3700595B0C /* RootViewController.h */,
+				5FA637F0163EDE3700595B0C /* RootViewController.m */,
+				5FA637F2163EDE3700595B0C /* DataViewController.h */,
+				5FA637F3163EDE3700595B0C /* DataViewController.m */,
+				5FA637F5163EDE3700595B0C /* ModelController.h */,
+				5FA637F6163EDE3700595B0C /* ModelController.m */,
+				5FA637F8163EDE3700595B0C /* MainStoryboard_iPhone.storyboard */,
+				5FA637FB163EDE3700595B0C /* MainStoryboard_iPad.storyboard */,
+				5FA637DE163EDE3700595B0C /* Supporting Files */,
+			);
+			path = "secret trails";
+			sourceTree = "<group>";
+		};
+		5FA637DE163EDE3700595B0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FA637DF163EDE3700595B0C /* secret trails-Info.plist */,
+				5FA637E0163EDE3700595B0C /* InfoPlist.strings */,
+				5FA637E3163EDE3700595B0C /* main.m */,
+				5FA637E5163EDE3700595B0C /* secret trails-Prefix.pch */,
+				5FA637E9163EDE3700595B0C /* Default.png */,
+				5FA637EB163EDE3700595B0C /* Default@2x.png */,
+				5FA637ED163EDE3700595B0C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FA6380A163EDE3700595B0C /* secret trailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FA63810163EDE3700595B0C /* secret_trailsTests.h */,
+				5FA63811163EDE3700595B0C /* secret_trailsTests.m */,
+				5FA6380B163EDE3700595B0C /* Supporting Files */,
+			);
+			path = "secret trailsTests";
+			sourceTree = "<group>";
+		};
+		5FA6380B163EDE3700595B0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6380C163EDE3700595B0C /* secret trailsTests-Info.plist */,
+				5FA6380D163EDE3700595B0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA637D2163EDE3600595B0C /* secret trails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA63815163EDE3700595B0C /* Build configuration list for PBXNativeTarget "secret trails" */;
+			buildPhases = (
+				5FA637CF163EDE3600595B0C /* Sources */,
+				5FA637D0163EDE3600595B0C /* Frameworks */,
+				5FA637D1163EDE3600595B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "secret trails";
+			productName = "secret trails";
+			productReference = 5FA637D3163EDE3600595B0C /* secret trails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FA63802163EDE3700595B0C /* secret trailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA63818163EDE3700595B0C /* Build configuration list for PBXNativeTarget "secret trailsTests" */;
+			buildPhases = (
+				5FA637FE163EDE3700595B0C /* Sources */,
+				5FA637FF163EDE3700595B0C /* Frameworks */,
+				5FA63800163EDE3700595B0C /* Resources */,
+				5FA63801163EDE3700595B0C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA63809163EDE3700595B0C /* PBXTargetDependency */,
+			);
+			name = "secret trailsTests";
+			productName = "secret trailsTests";
+			productReference = 5FA63803163EDE3700595B0C /* secret trailsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA637CA163EDE3600595B0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jesse Rintoul";
+			};
+			buildConfigurationList = 5FA637CD163EDE3600595B0C /* Build configuration list for PBXProject "secret trails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FA637C8163EDE3600595B0C;
+			productRefGroup = 5FA637D4163EDE3600595B0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA637D2163EDE3600595B0C /* secret trails */,
+				5FA63802163EDE3700595B0C /* secret trailsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA637D1163EDE3600595B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA637E2163EDE3700595B0C /* InfoPlist.strings in Resources */,
+				5FA637EA163EDE3700595B0C /* Default.png in Resources */,
+				5FA637EC163EDE3700595B0C /* Default@2x.png in Resources */,
+				5FA637EE163EDE3700595B0C /* Default-568h@2x.png in Resources */,
+				5FA637FA163EDE3700595B0C /* MainStoryboard_iPhone.storyboard in Resources */,
+				5FA637FD163EDE3700595B0C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA63800163EDE3700595B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA6380F163EDE3700595B0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FA63801163EDE3700595B0C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA637CF163EDE3600595B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA637E4163EDE3700595B0C /* main.m in Sources */,
+				5FA637E8163EDE3700595B0C /* AppDelegate.m in Sources */,
+				5FA637F1163EDE3700595B0C /* RootViewController.m in Sources */,
+				5FA637F4163EDE3700595B0C /* DataViewController.m in Sources */,
+				5FA637F7163EDE3700595B0C /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA637FE163EDE3700595B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA63812163EDE3700595B0C /* secret_trailsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FA63809163EDE3700595B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FA637D2163EDE3600595B0C /* secret trails */;
+			targetProxy = 5FA63808163EDE3700595B0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FA637E0163EDE3700595B0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA637E1163EDE3700595B0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FA637F8163EDE3700595B0C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA637F9163EDE3700595B0C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA637FB163EDE3700595B0C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA637FC163EDE3700595B0C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA6380D163EDE3700595B0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA6380E163EDE3700595B0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA63813163EDE3700595B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA63814163EDE3700595B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA63816163EDE3700595B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trails/secret trails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FA63817163EDE3700595B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trails/secret trails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FA63819163EDE3700595B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secret trails.app/secret trails";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trailsTests/secret trailsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5FA6381A163EDE3700595B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secret trails.app/secret trails";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secret trails/secret trails-Prefix.pch";
+				INFOPLIST_FILE = "secret trailsTests/secret trailsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA637CD163EDE3600595B0C /* Build configuration list for PBXProject "secret trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA63813163EDE3700595B0C /* Debug */,
+				5FA63814163EDE3700595B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA63815163EDE3700595B0C /* Build configuration list for PBXNativeTarget "secret trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA63816163EDE3700595B0C /* Debug */,
+				5FA63817163EDE3700595B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FA63818163EDE3700595B0C /* Build configuration list for PBXNativeTarget "secret trailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA63819163EDE3700595B0C /* Debug */,
+				5FA6381A163EDE3700595B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA637CA163EDE3600595B0C /* Project object */;
+}

@@ -1,0 +1,138 @@
+{
+    "words": [
+              {
+              "id": "509adfeedb98a9dfbff5e012",
+              "name": "matt",
+              "spelling_patterns": [
+                                    "m",
+                                    "a",
+                                    "t",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae029db98a9dfbff5e1dc",
+              "name": "man",
+              "spelling_patterns": [
+                                    "m",
+                                    "a",
+                                    "n"
+                                    ]
+              },
+              {
+              "id": "509ae02adb98a9dfbff5e1df",
+              "name": "mart",
+              "spelling_patterns": [
+                                    "m",
+                                    "a",
+                                    "r",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae02adb98a9dfbff5e1e3",
+              "name": "kat",
+              "spelling_patterns": [
+                                    "k",
+                                    "a",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae040db98a9dfbff5e28e",
+              "name": "part",
+              "spelling_patterns": [
+                                    "p",
+                                    "a",
+                                    "r",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae040db98a9dfbff5e290",
+              "name": "pat",
+              "spelling_patterns": [
+                                    "p",
+                                    "a",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae086db98a9dfbff5e4b4",
+              "name": "craft",
+              "spelling_patterns": [
+                                    "c",
+                                    "r",
+                                    "a",
+                                    "f",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae087db98a9dfbff5e4ba",
+              "name": "hand",
+              "spelling_patterns": [
+                                    "h",
+                                    "a",
+                                    "n",
+                                    "d"
+                                    ]
+              },
+              {
+              "id": "509ae088db98a9dfbff5e4bd",
+              "name": "ramp",
+              "spelling_patterns": [
+                                    "r",
+                                    "a",
+                                    "m",
+                                    "p"
+                                    ]
+              },
+              {
+              "id": "509ae088db98a9dfbff5e4c4",
+              "name": "rat",
+              "spelling_patterns": [
+                                    "b",
+                                    "a",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae0abdb98a9dfbff5e5d8",
+              "name": "tan",
+              "spelling_patterns": [
+                                    "t",
+                                    "a",
+                                    "n"
+                                    ]
+              },
+              {
+              "id": "509ae0abdb98a9dfbff5e5dc",
+              "name": "tar",
+              "spelling_patterns": [
+                                    "t",
+                                    "a",
+                                    "r"
+                                    ]
+              },
+              {
+              "id": "509ae0abdb98a9dfbff5e5dc",
+              "name": "cat",
+              "spelling_patterns": [
+                                    "c",
+                                    "a",
+                                    "t"
+                                    ]
+              },
+              {
+              "id": "509ae0acdb98a9dfbff5e5df",
+              "name": "tart",
+              "spelling_patterns": [
+                                    "t",
+                                    "a",
+                                    "r",
+                                    "t"
+                                    ]
+              }
+              ]
+}
